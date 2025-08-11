@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Lazarte - Backend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-logo">
+                <h2>Luca Lazarte</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Luca Lazarte</h1>
+            <h2>Backend Developer</h2>
+            <p>Estudiante de Licenciatura en Sistemas especializado en desarrollo backend con Java y Spring Boot</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contact" class="btn btn-secondary">Contacto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Estudiante de Licenciatura en Sistemas en la Universidad Nacional de Lanús, cursando actualmente 3er año. 
+                        Apasionado por el desarrollo backend y la creación de soluciones robustas y escalables.
+                    </p>
+                    <p>
+                        Mi enfoque está en el desarrollo con Java y Spring Boot, con especial interés en arquitectura de software, 
+                        sistemas concurrentes y buenas prácticas de programación. Próximo a obtener el título intermedio de 
+                        "Técnico Programador Universitario".
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Proyectos Completados</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Materias Aprobadas</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3°</h3>
+                            <p>Año Universitario</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Lenguajes de Programación</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Kotlin</span>
+                        <span class="skill-item">C</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Frameworks & Tecnologías</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">Spring Security</span>
+                        <span class="skill-item">Spring JPA</span>
+                        <span class="skill-item">Thymeleaf</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Herramientas</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">Swagger UI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Sistema de Turnos G-17</h3>
+                        <div class="project-status completed">Completado</div>
+                    </div>
+                    <p class="project-description">
+                        Sistema completo de gestión de turnos desarrollado con Java y Spring Boot. 
+                        Incluye autenticación, validaciones, envío de emails y API REST documentada.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>Spring Security</span>
+                        <span>Spring JPA</span>
+                        <span>Thymeleaf</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-features">
+                        <h4>Características destacadas:</h4>
+                        <ul>
+                            <li>Autenticación y autorización con Spring Security</li>
+                            <li>API REST con documentación Swagger</li>
+                            <li>Validaciones backend y manejo de excepciones</li>
+                            <li>Envío automático de emails</li>
+                            <li>Mapeo de entidades con ModelMapper</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/LucaLzt/Turnos-G17" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> Ver Código
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Sistema de Inventario</h3>
+                        <div class="project-status in-progress">En Desarrollo</div>
+                    </div>
+                    <p class="project-description">
+                        Sistema de gestión de inventario desarrollado con Java y Spring Boot, incluye autenticación, validaciones y
+                        próximamente envío de emails, y distintas funcionalidades.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>Spring Security</span>
+                        <span>Spring JPA</span>
+                        <span>Bootstrap</span>
+                        <span>Thymeleaf</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-features">
+                        <h4>Mejoras implementadas:</h4>
+                        <ul>
+                            <li>Autenticación y autorización con Spring Security</li>
+                            <li>Validaciones backend y manejo de excepciones</li>
+                            <li>Envío automático de emails</li>
+                            <li>Mapeo de entidades con ModelMapper</li>
+                            <li>Interface responsive con Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/LucaLzt/sistema_inventario" target="_blank" class="btn btn-outline disabled">
+                            <i class="fab fa-github"></i> Próximamente Público
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>QuickSort Concurrency</h3>
+                        <div class="project-status completed">Completado</div>
+                    </div>
+                    <p class="project-description">
+                        Estudio comparativo entre algoritmos secuenciales y concurrentes, implementando QuickSort 
+                        con threads en Java y documentando el análisis de rendimiento.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Threads</span>
+                        <span>Concurrencia</span>
+                        <span>Análisis de Algoritmos</span>
+                    </div>
+                    <div class="project-features">
+                        <h4>Investigación realizada:</h4>
+                        <ul>
+                            <li>Implementación de QuickSort secuencial vs concurrente</li>
+                            <li>Análisis de rendimiento con diferentes tamaños de datos</li>
+                            <li>Documentación detallada de resultados</li>
+                            <li>Casos donde la concurrencia es beneficiosa o perjudicial</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/LucaLzt/QuickSort_Concurrency" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> Ver Investigación
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Educación</h2>
+            <div class="education-content">
+                <div class="education-main">
+                    <div class="degree">
+                        <h3>Licenciatura en Sistemas</h3>
+                        <p class="institution">Universidad Nacional de Lanús</p>
+                        <p class="period">2023 - Presente (3er Año)</p>
+                        <p class="status">Próximo a obtener título intermedio: "Técnico Programador Universitario"</p>
+                    </div>
+                </div>
+                
+                <div class="relevant-courses">
+                    <h3>Materias Relevantes Aprobadas</h3>
+                    <div class="courses-grid">
+                        <div class="course-category">
+                            <h4>Programación & Algoritmos</h4>
+                            <ul>
+                                <li>Programación de Computadoras</li>
+                                <li>Programación Concurrente</li>
+                                <li>Algoritmos y Estructuras de Datos</li>
+                                <li>Expresión de Problemas y Algoritmos</li>
+                            </ul>
+                        </div>
+                        <div class="course-category">
+                            <h4>Ingeniería de Software</h4>
+                            <ul>
+                                <li>Ingeniería de Software 1</li>
+                                <li>Ingeniería de Software 2</li>
+                                <li>Orientación a Objetos 1</li>
+                                <li>Orientación a Objetos 2</li>
+                            </ul>
+                        </div>
+                        <div class="course-category">
+                            <h4>Sistemas & Arquitectura</h4>
+                            <ul>
+                                <li>Arquitectura de Computadoras</li>
+                                <li>Introducción a los Sistemas Operativos</li>
+                                <li>Organización de Computadoras</li>
+                                <li>Introducción a las Bases de Datos</li>
+                            </ul>
+                        </div>
+                        <div class="course-category">
+                            <h4>Matemática & Análisis</h4>
+                            <ul>
+                                <li>Matemática 1, 2 y 3</li>
+                                <li>Probabilidades y Estadística</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:luca.lazarte05@gmail.com">luca.lazarte05@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/luca-lazarte-862946269/" target="_blank">Luca Lazarte</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/LucaLzt" target="_blank">@LucaLzt</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Burzaco, Buenos Aires, Argentina</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>¿Interesado en colaborar?</h3>
+                    <p>Estoy abierto a oportunidades de prácticas, proyectos colaborativos y posiciones junior en desarrollo backend.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Luca Lazarte. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="mailto:luca.lazarte05@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/luca-lazarte-862946269/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/LucaLzt" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
